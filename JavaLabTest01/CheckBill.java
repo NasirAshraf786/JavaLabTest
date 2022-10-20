@@ -31,5 +31,7 @@ public class CheckBill
 	
     int units = sc.nextInt();
     
+    bill(units);
+    
    }
 }
