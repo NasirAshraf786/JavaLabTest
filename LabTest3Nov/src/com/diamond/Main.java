@@ -17,8 +17,8 @@ package com.diamond;
 			 //CREATING OBJECT OF SCANNER CLASS
 			 Scanner sc = new Scanner(System.in);
 			 
-			 //CREAQTING OBJECT OF DIAMONDPATTERN CLASS PRESENT IN com.diamond PACKAGE
-			// DiamondPattern obj = new DiamondPattern();
+			 //CREATING OBJECT OF DIAMONDPATTERN CLASS PRESENT IN com.diamond PACKAGE
+			 // DiamondPattern obj = new DiamondPattern();
 			 
 			 //TAKING INPUT 
 			 int row = sc.nextInt();
