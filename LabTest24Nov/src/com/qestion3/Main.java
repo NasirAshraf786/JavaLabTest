@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Member obj = new Member();
+		Member obj = new Member(null, 0, 0, null, 0),
 		// TODO Auto-generated method stub
 		
 		Employee obj1 = new Employee("NASIR ASHRAF",23 ,9572933862L ,"RANCHI",1200000,"PROGRAMMER","IT");
@@ -16,7 +16,7 @@ public class Main {
 		System.out.println("ADDRESS : " +obj1.address);
 		System.out.println("SPECELISATION : " +obj1.major);
 		System.out.println("DEPARTMENT : " +obj1.department);
-		obj.printSalary();
+		obj1.printSalary();
 		
 		
 		Manager obj2 = new Manager("KAMACHI MADAM", 30, 8096578901L, "BENGALURU", 2400000, "PRODUCT MANAGER", "IT");
@@ -29,7 +29,7 @@ public class Main {
 		System.out.println("SALARY : " +obj2.salary);
 		System.out.println("SPECELISATION : " +obj2.major);
 		System.out.println("DEPARTMENT : " +obj2.department);
-		obj.printSalary();
+		obj2.printSalary();
 		
 		
 		
