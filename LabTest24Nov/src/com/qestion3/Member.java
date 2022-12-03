@@ -37,7 +37,15 @@ class Employee extends Member {
 		this.major = major;
 		this.department = department;
 	}
-	
+	public void detailsOfEmployee() {
+		
+		System.out.println("NAME : " +name);
+		System.out.println("AGE : " +age);
+		System.out.println("MOBILE NUMBER : " +mobile_No);
+		System.out.println("ADDRESS : " +address);
+		System.out.println("SPECELISATION : " +major);
+		System.out.println("DEPARTMENT : " +department);
+	}
 }
 
 
@@ -53,5 +61,13 @@ class Manager extends Member{
 		
 		
 	}
-	
+	public void detailsOfManager() {
+		
+		System.out.println("NAME : " +name);
+		System.out.println("AGE : " +age);
+		System.out.println("MOBILE NUMBER : " +mobile_No);
+		System.out.println("ADDRESS : " +address);
+		System.out.println("SPECELISATION : " +major);
+		System.out.println("DEPARTMENT : " +department);
+	}
 }
