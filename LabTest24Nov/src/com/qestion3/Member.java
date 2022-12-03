@@ -9,7 +9,7 @@ public class Member {
 	   int salary;
 	
 	public Member(String name, int age, long mobile_No, String address, int salary) {
-		super();
+		
 		this.name = name;
 		this.age = age;
 		this.mobile_No = mobile_No;
